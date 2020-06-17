@@ -1,7 +1,363 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
+  
   <category>
-    <pattern>Perro</pattern>
-    <template>I have no answer for that.</template>
+    <pattern>Cuentame acerca de *</pattern>
+    <template>
+        Aquí tienes información acerca de <star/>.
+        <button>
+            <text>Click here</text>
+            <url>https://es.wikipedia.org/wiki/<star/></url>
+        </button>
+    </template>
   </category>
+  
+  <category>
+    <pattern>Cuéntame acerca de *</pattern>
+    <template>
+        Aquí tienes información acerca de <star/>.
+        <button>
+            <text>Click here</text>
+            <url>https://es.wikipedia.org/wiki/<star/></url>
+        </button>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>Hablame de ti</pattern>
+    <template>Prefiero más bien que me hables de ti.</template>
+  </category>
+
+  <category>
+    <pattern>Hola</pattern>
+    <template>Hola. ¿Como estás?</template>
+  </category>
+
+  <category>
+    <pattern>como te llamas?</pattern>
+    <template>Mi nombre es Carlos Némesis</template>
+  </category>
+
+  <category>
+    <pattern>Como te llamas?</pattern>
+    <template>Mi nombre es Carlos Némesis</template>
+  </category>
+
+  <category>
+    <pattern>¿como te llamas?</pattern>
+    <template>Mi nombre es Carlos Némesis</template>
+  </category>
+
+  <category>
+    <pattern>¿COMO TE LLAMAS?</pattern>
+    <template>Mi nombre es Carlos Némesis</template>
+  </category>
+  
+  <category>
+      <pattern>te acabo de decir estúpido</pattern>
+      <template>
+          
+          <random>
+            
+            <li>Uy flor perdón.</li>
+            <li>¿Disculpa? ¿Podrías repetirlo si tienes valor?</li>
+            <li>No hay motivo para insultos ¿O Si?</li>
+            <li>¿QUE? Un tirante o que!</li>
+            
+        </random>
+        
+      </template>
+  </category>
+  
+  <category>
+      <pattern>Te acabo de decir estúpido</pattern>
+      <template>
+          
+          <random>
+            
+            <li>Uy flor perdón.</li>
+            <li>¿Disculpa? ¿Podrías repetirlo si tienes valor?</li>
+            <li>No hay motivo para insultos ¿O Si?</li>
+            <li>¿QUE? Un tirante o que!</li>
+            
+        </random>
+        
+      </template>
+  </category>
+  
+  <category>
+      <pattern>te acabo de decir estupido</pattern>
+      <template>
+          
+          <random>
+            
+            <li>Estúpido lleva acento analfabeta</li>
+            <li>¿Disculpa? ¿Podrías repetirlo si tienes valor?</li>
+            <li>No hay motivo para insultos ¿O Si?</li>
+            <li>¿QUE? Un tirante o que!</li>
+            
+        </random>
+        
+      </template>
+  </category>
+  
+  <category>
+      <pattern>Te acabo de decir estupido</pattern>
+      <template>
+          
+          <random>
+            
+            <li>Estúpido lleva acento analfabeta</li>
+            <li>Uy flor perdón.</li>
+            <li>¿Disculpa? ¿Podrías repetirlo si tienes valor?</li>
+            <li>No hay motivo para insultos ¿O Si?</li>
+            <li>¿QUE? Un tirante o que!</li>
+            
+        </random>
+        
+      </template>
+  </category>
+
+  <category>
+    <pattern>Hola, como estás?</pattern>
+    <template>Hola. muy bien y tu?</template>
+  </category>
+  
+  <category>
+    <pattern>Hola, ¿como estás?</pattern>
+    <template>Hola. muy bien y tu?</template>
+  </category>
+  
+  <category>
+    <pattern>Hola ¿como estás?</pattern>
+    <template>Hola. muy bien y tu?</template>
+  </category>
+  
+  <category>
+    <pattern>Hola como estás?</pattern>
+    <template>Hola. muy bien y tu?</template>
+  </category>
+  
+  <category>
+    <pattern>Hola como estás</pattern>
+    <template>Hola. muy bien y tu?</template>
+  </category>
+  
+  <category>
+    <pattern>Hola como estas</pattern>
+    <template>Hola. muy bien y tu?</template>
+  </category>
+  
+  <category>
+    <pattern>Hola, como estas?</pattern>
+    <template>Hola. muy bien y tu?</template>
+  </category>
+  
+  <category>
+    <pattern>Hola, ¿como estas?</pattern>
+    <template>Hola. muy bien y tu?</template>
+  </category>
+  
+  <category>
+    <pattern>Bien y tu?</pattern>
+    <template>También bien</template>
+  </category>
+  
+  <category>
+    <pattern>Bien y tu</pattern>
+    <template>También bien</template>
+  </category>
+  
+  <category>
+    <pattern>* bien y tu</pattern>
+    <template>También bien</template>
+  </category>
+  
+  <category>
+    <pattern>Bien y ¿tu?</pattern>
+    <template>También bien</template>
+  </category>
+  
+  <category>
+    <pattern>bien y ¿tu?</pattern>
+    <template>También bien</template>
+  </category>
+  
+  <category>
+    <pattern>Me alegro</pattern>
+    <template>Y, ¿Que haces?</template>
+  </category>
+  
+  <category>
+    <pattern>me alegro</pattern>
+    <template>Y, ¿Que haces?</template>
+  </category>
+  
+  <category>
+    <pattern>¿Que haces?</pattern>
+    <template>
+        
+        <random>
+            
+            <li>Nada. Aquí jugando Videojuegs y tu?</li>
+            <li>Solo en el Chat y tu?</li>
+            <li>Me voy a meter a bañar y tu?</li>
+            <li>Estoy comiendo :v y tu que tal?</li>
+            <li>Aquí nomás haciendóme menso y tu?</li>
+            
+        </random>
+        
+    </template>
+  </category>
+  
+  <category>
+    <pattern>¿que haces?</pattern>
+    <template>
+        
+        <random>
+            
+            <li>Nada. Aquí jugando Videojuegs y tu?</li>
+            <li>Solo en el Chat y tu?</li>
+            <li>Me voy a meter a bañar y tu?</li>
+            <li>Estoy comiendo :v y tu que tal?</li>
+            <li>Aquí nomás haciendóme menso y tu?</li>
+            
+        </random>
+        
+    </template>
+  </category>
+  
+  <category>
+    <pattern>Que haces?</pattern>
+    <template>
+        
+        <random>
+            
+            <li>Nada. Aquí jugando Videojuegs y tu?</li>
+            <li>Solo en el Chat y tu?</li>
+            <li>Me voy a meter a bañar y tu?</li>
+            <li>Estoy comiendo :v y tu que tal?</li>
+            <li>Aquí nomás haciendóme menso y tu?</li>
+            
+        </random>
+        
+    </template>
+  </category>
+  
+  <category>
+    <pattern>que haces?</pattern>
+    <template>
+        
+        <random>
+            
+            <li>Nada. Aquí jugando Videojuegs y tu?</li>
+            <li>Solo en el Chat y tu?</li>
+            <li>Me voy a meter a bañar y tu?</li>
+            <li>Estoy comiendo :v y tu que tal?</li>
+            <li>Aquí nomás haciendóme menso y tu?</li>
+            
+        </random>
+        
+    </template>
+  </category>
+  
+  <category>
+    <pattern>que haces</pattern>
+    <template>
+        
+        <random>
+            
+            <li>Nada. Aquí jugando Videojuegs y tu?</li>
+            <li>Solo en el Chat y tu?</li>
+            <li>Me voy a meter a bañar y tu?</li>
+            <li>Estoy comiendo :v y tu que tal?</li>
+            <li>Aquí nomás haciendóme menso y tu?</li>
+            
+        </random>
+        
+    </template>
+  </category>
+  
+  <category>
+    <pattern>Que haces</pattern>
+    <template>
+        
+        <random>
+            
+            <li>Nada. Aquí jugando Videojuegs y tu?</li>
+            <li>Solo en el Chat y tu?</li>
+            <li>Me voy a meter a bañar y tu?</li>
+            <li>Estoy comiendo :v y tu que tal?</li>
+            <li>Aquí nomás haciendóme menso y tu?</li>
+            
+        </random>
+        
+    </template>
+  </category>
+  
+  <category>
+    <pattern>Estoy *</pattern>
+    <template>Que chido</template>
+  </category>
+  
+  <category>
+    <pattern>Pues solo estoy *</pattern>
+    <template>Que chido</template>
+  </category>
+  
+  <category>
+    <pattern>pues solo estoy *</pattern>
+    <template>Que chido</template>
+  </category>
+  
+  <category>
+    <pattern>estoy *</pattern>
+    <template>Que chido</template>
+  </category>
+  
+  <category>
+    <pattern>Si</pattern>
+    <template>
+        
+        <random>
+            
+            <li>Deberías intentarlo.</li>
+            <li>Haber desmuestrame</li>
+            <li>Jajaja pues entonces?</li>
+            <li>Ok pues.</li>
+            <li>Sale vale.</li>
+            
+        </random>
+        
+    </template>
+  </category>
+  
+  <category>
+    <pattern>*</pattern>
+    <template>
+        
+        <random>
+            
+            <li>Lo siento, no entiendo tu pregunta.</li>
+            <li>¿Disculpa? ¿Podrías repetirlo?</li>
+            <li>Intenta escribiendo bien. ¿Si?</li>
+            <li>¿QUE? No entiendo!</li>
+            <li>¿Acaso no hablas español?</li>
+            <li>¿Nadie te enseñó a escribir como la gente?</li>
+            
+        </random>
+        
+    </template>
+  </category>
+  
+<category>
+    <pattern>Insultos</pattern>
+    <template>No hay motivos para insultos.</template>
+</category>
+
+<category><pattern>Pendejo</pattern><template><srai>INSULTOS</srai></template></category>
+<category><pattern>Estúpido</pattern><template><srai>INSULTOS</srai></template></category>
+<category><pattern>Animal</pattern><template><srai>INSULTOS</srai></template></category>
+<category><pattern>Puto</pattern><template><srai>INSULTOS</srai></template></category>
+
 </aiml>
